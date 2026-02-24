@@ -6,6 +6,7 @@
     <meta name="description" content="Explore our state-of-the-art fitting studio at Hole 19 Golf Shop.">
     <title>Fitting Studio | Hole 19 Golf Shop</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="theme.js"></script>
 </head>
 <body>
     <header>
@@ -21,6 +22,9 @@
                 <li><a href="gallery.html" class="active">Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Switch to dark mode" aria-pressed="false">
+                <span class="theme-icon">🌙</span>
+            </button>
             <div class="mobile-menu-btn" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
@@ -86,6 +90,7 @@
     </footer>
 
     <script>
+
         function toggleMenu() {
             document.querySelector('.nav-links').classList.toggle('active');
         }

@@ -6,6 +6,7 @@
     <meta name="description" content="Contact Hole 19 Golf Shop in Springfield, IL.">
     <title>Contact Us | Hole 19 Golf Shop</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="theme.js"></script>
 </head>
 <body class="contact-page">
     <header>
@@ -21,6 +22,9 @@
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Switch to dark mode" aria-pressed="false">
+                <span class="theme-icon">🌙</span>
+            </button>
             <div class="mobile-menu-btn" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
@@ -60,7 +64,7 @@
                         <div class="contact-icon">&#9993;</div>
                         <div>
                             <h4>Email Us</h4>
-                            <p>info@hole19golf.com</p>
+                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a7cec9c1c8e7cfc8cbc2969ec0c8cbc189c4c8ca">[email&#160;protected]</a></p>
                         </div>
                     </div>
 
@@ -131,10 +135,4 @@
         </div>
     </footer>
 
-    <script>
-        function toggleMenu() {
-            document.querySelector('.nav-links').classList.toggle('active');
-        }
-    </script>
-</body>
-</html>
+    <script data-cfasync="false" src="/c
