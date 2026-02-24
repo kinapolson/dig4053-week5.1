@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our state-of-the-art fitting studio at Hole 19 Golf Shop.">
+    <title>Fitting Studio | Hole 19 Golf Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <div class="logo-icon">19</div>
+                <div class="logo-text">Hole <span>19</span></div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>The Fitting Studio</h1>
+            <p>Where data meets expertise for the perfect club match</p>
+        </section>
+
+        <section class="content-section">
+            <div class="content-block">
+                <h2>TrackMan Technology</h2>
+                <p>Our primary fitting bay features the TrackMan 4 launch monitor, the same technology used on professional tours worldwide. This radar-based system captures over 40 data points on every swing, including ball speed, launch angle, spin rate, and club path.</p>
+                <p>By analyzing this data in real-time, our fitters can identify the optimal combination of club head, shaft, and specifications for your unique swing characteristics.</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Three Dedicated Bays</h2>
+                <p>With three separate fitting bays, we can accommodate multiple appointments simultaneously while ensuring each golfer receives focused attention. Each bay is equipped with premium hitting mats, proper lighting, and enough space for a full swing with any club in the bag.</p>
+            </div>
+
+            <div class="content-block">
+                <h2>SAM PuttLab</h2>
+                <p>Our putting studio features SAM PuttLab technology, which uses ultrasonic sensors to analyze 28 parameters of your putting stroke. Combined with our true-roll putting surface, we can dial in the perfect putter length, lie angle, loft, and head style for your stroke type.</p>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Book Your Fitting</h2>
+            <p>Experience the difference data-driven fitting makes.</p>
+            <a href="contact.html" class="btn btn-primary">Schedule Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Hole 19 Golf Shop</h4>
+                <p>Premium golf equipment and custom fitting services.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>1847 Fairway Drive</p>
+                <p>Springfield, IL 62701</p>
+                <p>(217) 555-1947</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Hole 19 Golf Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

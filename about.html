@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Hole 19 Golf Shop's history and team of PGA professionals.">
+    <title>About Us | Hole 19 Golf Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <div class="logo-icon">19</div>
+                <div class="logo-text">Hole <span>19</span></div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>About Hole 19 Golf Shop</h1>
+            <p>Family-owned and operated since 2008</p>
+        </section>
+
+        <section class="content-section">
+            <div class="our-story-grid">
+                <div class="our-story-text">
+                    <h2>Our Story</h2>
+                    <p>Hole 19 Golf Shop began in 2008 when founder David Mitchell turned his lifelong passion for golf into something more. After 20 years as a PGA club professional, David saw an opportunity to create a different kind of golf retail experience in Springfield.</p>
+                    <p>What started as a small shop has grown into a 4,500 square foot facility with three fitting studios and a full repair workshop.</p>
+                </div>
+                <div class="our-story-image">
+                    <img src="public/images/about.jpg" alt="Inside Hole 19 Golf Shop" class="responsive-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="section-title">
+                <h2>Our Values</h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <h3>Honesty First</h3>
+                    <p>We build relationships, not transactions.</p>
+                </div>
+                <div class="value-card">
+                    <h3>Expertise Matters</h3>
+                    <p>Every staff member plays golf and undergoes continuous training.</p>
+                </div>
+                <div class="value-card">
+                    <h3>Community Focus</h3>
+                    <p>We sponsor local junior golf programs and charity tournaments.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="section-title">
+                <h2>Meet the Team</h2>
+                <p>PGA professionals and certified fitters dedicated to your game</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=300&fit=crop&crop=face" alt="David Mitchell" class="team-photo">
+                    <h3>David Mitchell</h3>
+                    <p class="role">Founder & Head Fitter</p>
+                    <p>PGA Class A Professional with 35 years in the golf industry. David personally handles complex fitting challenges.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=300&fit=crop&crop=face" alt="Karen Mitchell" class="team-photo">
+                    <h3>Karen Mitchell</h3>
+                    <p class="role">Operations Manager</p>
+                    <p>Keeps Hole 19 running smoothly. Manages inventory, vendor relationships, and customer service.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Tony Rodriguez" class="team-photo">
+                    <h3>Tony Rodriguez</h3>
+                    <p class="role">Senior Club Fitter</p>
+                    <p>TPI Certified with specialization in biomechanics. Former mini-tour player who knows competitive golf.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=300&fit=crop&crop=face" alt="Jennifer Lee" class="team-photo">
+                    <h3>Jennifer Lee</h3>
+                    <p class="role">Club Technician</p>
+                    <p>Our master craftsperson. Handles all repairs, regripping, and custom builds with precision.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Visit Us Today</h2>
+            <p>Come see why Springfield golfers have trusted Hole 19 for over 15 years.</p>
+            <a href="contact.html" class="btn btn-primary">Get Directions</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Hole 19 Golf Shop</h4>
+                <p>Premium golf equipment and custom fitting services.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>1847 Fairway Drive</p>
+                <p>Springfield, IL 62701</p>
+                <p>(217) 555-1947</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Hole 19 Golf Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

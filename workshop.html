@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our professional club repair and building workshop at Hole 19 Golf Shop.">
+    <title>Workshop | Hole 19 Golf Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <div class="logo-icon">19</div>
+                <div class="logo-text">Hole <span>19</span></div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>The Workshop</h1>
+            <p>Professional craftsmanship for every club</p>
+        </section>
+
+        <section class="content-section">
+            <div class="content-block">
+                <h2>Club Building Station</h2>
+                <p>Our workshop is fully equipped for custom club assembly from components. Whether building a complete set from scratch or replacing a single shaft, we have the tools and expertise to do the job right. We use professional-grade epoxies, precision cutting equipment, and digital scales for accurate swing weight matching.</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Shaft Library</h2>
+                <p>We maintain an extensive library of demo shafts from all major manufacturers including Fujikura, Graphite Design, Project X, and True Temper. During your fitting, you can test multiple shaft profiles to find the one that delivers the best combination of feel and performance.</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Mitchell Bending Machine</h2>
+                <p>Our Mitchell Golf loft and lie machine allows for precise adjustments measured in tenths of a degree. After bending, each club is verified with a digital loft/lie gauge to ensure specifications match your fitting recommendations exactly.</p>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Need Repairs?</h2>
+            <p>Bring your clubs in for professional service.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Hole 19 Golf Shop</h4>
+                <p>Premium golf equipment and custom fitting services.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>1847 Fairway Drive</p>
+                <p>Springfield, IL 62701</p>
+                <p>(217) 555-1947</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Hole 19 Golf Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
